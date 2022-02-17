@@ -22,7 +22,7 @@ main {
   display: flex;
   align-items: center;
 }
-.extremos {
+.extreme {
   display: flex;
   flex-direction: column;
   background-color: rgb(58, 58, 63);
@@ -46,6 +46,12 @@ li {
   height: 95vh;
   z-index: 2;
 }
+.lang {
+  display: inline-block;
+  position: absolute;
+  height: 28px;
+  left: 1300px;
+}
 .aboutMe {
   background-color: rgb(58, 58, 63);
   height: 85vh;
@@ -57,7 +63,7 @@ li {
 h2 {
   font-size: 40px;
 }
-.green {
+.label-color {
   color: rgb(137, 218, 137);
 }
 .name {
@@ -82,7 +88,7 @@ h2 {
   grid-template-columns: 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
   align-items: center;
 }
-#titleNomargin {
+.titleNoMargin {
   margin-bottom: 10px;
   margin-top: 18px;
 }
@@ -116,5 +122,8 @@ h4 {
   }
   .skill-icon {
     font-size: 25px;
+  }
+  .lang {
+    left: 1800px;
   }
 }

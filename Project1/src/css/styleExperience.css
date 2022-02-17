@@ -50,6 +50,12 @@ li {
   height: 94vh;
   z-index: 2;
 }
+.lang {
+  display: inline-block;
+  position: absolute;
+  height: 28px;
+  left: 1300px;
+}
 .aboutMe {
   display: flex;
   flex-direction: column;
@@ -58,16 +64,16 @@ li {
   height: 85vh;
 }
 .me {
-  margin: 20px 30px;
+  margin: 10px 30px;
   font-size: 12px;
   text-align: justify;
   width: 60vw;
   max-height: 85vh;
 }
 h2 {
-  font-size: 40px;
+  font-size: 38px;
 }
-.green {
+.label-color {
   color: rgb(137, 218, 137);
 }
 .name {
@@ -93,10 +99,6 @@ h2 {
   justify-content: space-around;
   margin-top: 12px;
 }
-#titleNomargin {
-  margin-bottom: 10px;
-  margin-top: 18px;
-}
 .fab:hover,
 .fas:hover {
   color: rgb(137, 218, 137);
@@ -115,7 +117,7 @@ span {
 }
 .list {
   list-style: disc;
-  margin: 20px 20px;
+  margin: 15px 20px;
 }
 span:hover {
   color: rgb(137, 218, 137);

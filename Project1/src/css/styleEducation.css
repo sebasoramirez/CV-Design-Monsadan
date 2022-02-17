@@ -25,7 +25,7 @@ main {
   height: 85vh;
   width: 100vw;
 }
-.extremos {
+.extreme {
   display: flex;
   flex-direction: column;
   background-color: rgb(58, 58, 63);
@@ -50,6 +50,12 @@ li {
   height: 94vh;
   z-index: 2;
 }
+.lang {
+  display: inline-block;
+  position: absolute;
+  height: 28px;
+  left: 1300px;
+}
 .aboutMe {
   display: flex;
   flex-direction: column;
@@ -67,7 +73,7 @@ li {
 h2 {
   font-size: 40px;
 }
-.green {
+.label-color {
   color: rgb(137, 218, 137);
 }
 .name {
